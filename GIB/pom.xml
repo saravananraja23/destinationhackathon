@@ -16,7 +16,28 @@
 			<version>1.8</version>
 		</dependency>
 	
-		
+		<dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-json</artifactId>
+            <version>1.8</version>
+        </dependency>
+         <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-client</artifactId>
+            <version>1.8</version>
+        </dependency>
+  <dependency>
+	<groupId>com.google.maps</groupId>
+	<artifactId>google-maps-services</artifactId>
+	<version>0.1.7</version>
+	
+</dependency>
+  
+  <dependency>
+  <groupId>com.google.api-client</groupId>
+  <artifactId>google-api-client</artifactId>
+  <version>1.20.0</version>
+</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
@@ -24,5 +45,13 @@
 		</dependency>
 		
   </dependencies>
+  
+  <repositories>
+		<repository>
+			<id>Maven Central</id>
+			<url>http://repo2.maven.org/maven2/</url>
+		</repository>
+		
+		</repositories>
   
 </project>
