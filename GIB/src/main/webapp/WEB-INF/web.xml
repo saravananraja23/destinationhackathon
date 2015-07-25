@@ -1,0 +1,20 @@
+
+<web-app>
+  <display-name>Restful Web Application</display-name>
+  
+  	
+	<servlet>
+	    <servlet-name>Jersey REST Service</servlet-name>
+	    <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+	    <init-param>
+	      <param-name>com.sun.jersey.config.property.packages</param-name>
+	      <param-value>com.mygola.hackathon</param-value>
+	    </init-param>
+	    <load-on-startup>2</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jersey REST Service</servlet-name>
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
